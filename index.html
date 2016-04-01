@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Engage Point</title>
+   <!-- Bootstrap -->
+   <link href="css/bootstrap.css" rel="stylesheet">
+   <link href="css/bootstrap-theme.css" rel="stylesheet">
+   <link href="css/style.css" type="text/css" rel="stylesheet">
+   <link href="css/media.css" type="text/css" rel="stylesheet">
+   <script type="text/javascrpit" src="js/bootstrap.min.js"></script>
+   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+   $(document).ready(function(){
+      $(".box .subblock").show();
+      $(".closed .subblock").hide();
+      $(".spoiler .subblock").show();
+      $(".close-item .subblock").hide();
+      $(".spoiler .onclick").click(function(){
+         $(this).toggleClass("bgcolor").next().slideToggle("medium");
+      });
+   });
+</script>
+<!--Begin-->
+<div class="container">
+      <!--Header-->
+<header>
+      <div class="row header">
+         <div class="col-lg-12 col-md-12 col-sm-12 row-col">
+            <div class="header-title">
+               <p>Все заказы</p>
+                     <ul>
+                        <li><a href="#">Текущие</a></li>
+                        <li><a href="#">Завершенные</a></li>
+                        <li><a href="#">Отмененные</a></li>
+                     </ul>
+            </div>
+         </div>
+      </div>
+</header>
+      <!--Content-->
+<section>
+      <div class="content">
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+               <div class="content-block1">
+                  <div class="content-block1-1">
+                     <p class="title">Дата заказа <img src="images/icon-down.png"></p>
+                     <p class="title">№ заказа</p>
+                     <p class="title">Текущий статус</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+               <div class="content-block2 spoiler close-item">
+                  <div class="onclick">
+                     <p class="title">9 июля 2012</p>
+                        <p class="title">№ 0570</p>
+                           <p class="red-text title"><img src="images/close.png"> Отменен</p>
+                              <span class="show-icon" title="show"></span>
+                                 <span class="hide-icon" title="hide"></span>
+                  </div>
+                     <div class="content-block2-hide subblock">
+                        <p>Ваш заказ был отменен</p>
+                     </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+               <div class="content-block3 spoiler">
+                  <div class="onclick">
+                     <p class="title">3 июля 2012</p>
+                     <p class="title">№ ME0017681</p>
+                     <p class="title-last"><img src="images/icon-car.png"> Отправлен курьерской службой</p>
+                     <span class="show-icon" title="show"></span>
+                     <span class="hide-icon" title="hide"></span>
+                  </div>
+                  <div class="content-block3-hide subblock">
+                     <div class="content-block3-hide-block1">
+                        <span>Имя получателя:</span><br />
+                        <span>Электронная почта:</span><br />
+                        <span>Доставка:</span><br />
+                        <span>Оплата:</span>
+                     </div>
+                     <div>
+                        <p>г. Киев, ул. Саксаганского, 65, кв. 11</p><br />
+                        <p>+38 050 123-45-56</p><br />
+                        <p>Курьером лично в руки. Адрес: г. Киев, ул. Саксаганского, 65, кв. 11</p><br />
+                        <p>Наличными при получении</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="zakaz">
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+                  <div class="content-block4 zakaz-block">
+                     <div class="zakaz-block1"><p class="title">Товары в заказе</p></div>
+                     <div class="zakaz-block2"><p class="title">Количество</p></div>
+                     <div class="zakaz-block3"><p class="title">Цена</p></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+                  <div class="content-block5 zakaz-block">
+                     <div class="zakaz-block1">
+                        <img class="img1" src="images/img1.png">
+                        <a href=""><p class="name">Девушка c татуировкой дракона Стиг Ларссон</p></a>
+                        <p class="price">138 грн.</p>
+                        <img class="img2" src="images/sub-img.png">
+                     </div>
+                     <div class="zakaz-block2"><p>1</p></div>
+                     <div class="zakaz-block3"><p>138 грн.</p></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+                  <div class="content-block6 zakaz-block">
+                     <div class="zakaz-block1">
+                        <img class="img1" src="images/img2.png">
+                        <a href=""><p class="name">Девушка, которая взрывала воздушные замки Стиг Ларссон</p></a>
+                        <p class="old-price">170 грн.</p>
+                        <p class="price">138 грн.</p>
+                        <img class="img2" src="images/sub-img.png">
+                     </div>
+                     <div class="zakaz-block2"><p>1</p></div>
+                     <div class="zakaz-block3"><p>138 грн.</p></div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+                  <div class="content-block7 zakaz-block">
+                     <p>Доставка:</p>
+                     <p class="orange">20 грн.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+                  <div class="content-block8 zakaz-block">
+                     <div class="block1">
+                        <p><span>+38 бонусов</span> за этот заказ</p>
+                     </div>
+                     <div class="block2">
+                        <p>Сумма заказа:</p>
+                        <p class="orange">182 грн.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+</section>
+   <footer>
+      <div class="row">
+         <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block">
+            <div class="content-block9 spoiler close-item">
+               <div class="onclick">
+                  <p class="title">17 мая 2012</p>
+                  <p class="title">№0570</p>
+                  <p class="green-text title"><img src="images/icon-ok.png"> Доставлен</p>
+                  <span class="show-icon" title="show"></span>
+                  <span class="hide-icon" title="hide"></span>
+               </div>
+               <div class="content-block9-hide subblock">
+                  <p>Ваш заказ был доставлен</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col-lg-12 col-md-12 col-sm-12 row-col content-block last-block">
+            <div class="content-block10 spoiler close-item">
+               <div class="onclick">
+                  <p class="title">29 февраля 2012</p>
+                  <p class="title">№ ME0017681</p>
+                  <p class="green-text title"><img src="images/icon-ok.png"> Доставлен</p>
+                  <span class="show-icon" title="show"></span>
+                  <span class="hide-icon" title="hide"></span>
+               </div>
+               <div class="content-block10-hide subblock">
+                  <p>Ваш заказ был доставлен</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+</div>
+</body>
+</html>
+

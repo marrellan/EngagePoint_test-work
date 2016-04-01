@@ -1,0 +1,288 @@
+@import url(reset.css);
+body{
+    background-color: #fff;
+}
+a{
+    font: 20px Verdana;
+    color: #25a7df;
+}
+p{
+    font: 14px Verdana;
+}
+.row{
+    margin: 0!important;
+}
+/*header*/
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 10px;
+}
+.container {
+    max-width: 100%;
+    width: 925px !important;
+    margin: 0 auto;
+    padding: 0 20px !important;
+}
+header a{
+    margin-right: 32px;
+    border-bottom: 1px dotted;
+    text-decoration: none;
+    transition: 0.5s;
+}
+header a:hover{
+    text-decoration: none;
+    color: #CC2610;
+    transition: 0.5s;
+}
+header a:link{
+    text-decoration: none;
+}
+.header-title p{
+    float: left;
+    font: 20px Verdana;
+    color: #363636;
+    margin-right: 32px;
+}
+.header-title ul li{
+    display: inline-block;
+}
+
+/*section*/
+.content{
+    font: 14px Verdana;
+    color: #333333;
+}
+.content-block1,.content-block2,.content-block3,.content-block9{
+    /*border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;*/
+    background: url(../images/border.png) no-repeat;
+    padding: 16px 0;
+}
+.content-block2,.content-block3,.content-block9,.content-block10{
+    padding: 0;
+    min-height: 50px;
+}
+.content-block2,.content-block9,.content-block10{
+    background-color: #F4FBFD;
+    border-top:none;
+    box-shadow: inset 0px 0px 50px 5px rgba(255,255,255,1);
+}
+.content-block2-hide {
+    text-align: center;
+    font-size: 17px;
+}
+.content-block2-hide p{
+    margin: 0;
+    font-size: 17px;
+    padding: 20px 0 20px 0;
+    color: #CC3600;
+}
+.content-block3{
+    border-top:none;
+}
+.content-block1 p,.content-block2 p,.content-block3 p,.content-block9 p,.content-block10 p{
+    display: inline-block;
+}
+.content-block1 p.title{
+    font-weight: bold;
+    margin-right: 5%;
+    width: 23%;
+}
+.content-block2 p.title,.content-block3 p.title,.content-block9 p.title,.content-block10 p.title{
+    margin-right: 5%;
+    width: 23%;
+}
+.content-block2 p.red-text{
+    color: #CC3600;
+}
+.content-block3-hide{
+    padding: 10px 0;
+}
+.content-block3-hide div span{
+    color: #999999;
+}
+.content-block3-hide div p{
+    padding: 0;
+    margin: 0;
+}
+.content-block3-hide-block1{
+    width: 185px;
+    float: left;
+    margin-right: 50px;
+}
+
+/*dropdown*/
+.spoiler span.show-icon{
+    width: 22px;
+    height: 22px;
+    background: url(../images/iconClose.png) no-repeat;
+    float:right;
+    position: relative;
+    top: 5px;
+}
+.spoiler .onclick{
+    cursor: pointer;
+    height: 50px;
+    padding: 16px 0;
+}
+.spoiler span.hide-icon{
+    width: 22px;
+    height: 22px;
+    background: url(../images/iconOpen.png) no-repeat;
+    float:right;
+    position: relative;
+    top: 5px;
+}
+.show-icon {display: none;}
+.bgcolor .show-icon {display: block;}
+.hide-icon  {display: block;}
+.bgcolor .hide-icon {display: none;}
+.close .show-icon {display: block;}
+.close .bgcolor .show-icon {display: none;}
+.close .hide-icon  {display: none;}
+.close .bgcolor .hide-icon {display: block;}
+
+.zakaz-block{
+    padding: 10px 0;
+}
+.zakaz-block div{
+    display: inline-block;
+    vertical-align: top;
+}
+.zakaz-block .zakaz-block1{
+    width: 60%;
+}
+.zakaz-block .zakaz-block2{
+    width: 95px;
+    text-align: center;
+}
+.zakaz-block3 p.title{
+    color: #363636;
+}
+.zakaz-block3 p{
+    color: #f15e00;
+    font-weight: bold;
+}
+.content-block4{
+    /*border-bottom: 1px dotted #CCCCCC;*/
+    padding: 18px 0;
+    background: url(../images/border-dotted.png) 0 49px no-repeat;
+}
+.content-block6{
+    padding-top: 15px;
+}
+.zakaz-block .zakaz-block1 img{
+    float: left;
+    margin-right: 10px;
+}
+.zakaz-block .zakaz-block1 img.img2{
+    position: relative;
+    top: 22px;
+    right: 65px
+}
+.content-block6 .zakaz-block1 img.img2{
+    top: -5px;
+}
+.zakaz-block .zakaz-block1 .name{
+    color: #446699;
+    font-size: 12px;
+}
+.zakaz-block .zakaz-block1 .price{
+    color: #f15e00;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 12px;
+}
+.content-block6 .zakaz-block1 .name{
+    width: 350px;
+}
+.content-block6 .zakaz-block1 .price{
+    padding: 0;
+}
+.content-block6 .zakaz-block1 .old-price{
+    color: #999999;
+    font-size: 12px;
+    font-weight: normal;
+    text-decoration: line-through;
+    padding-top: 5px;
+}
+.zakaz-block .zakaz-block3{
+    text-align: right;
+    width: 20%;
+    float: right;
+}
+.zakaz-block p.title{
+    font-weight: bold;
+}
+.content-block7{
+    /*border-top: 1px dotted #CCCCCC;
+    border-bottom: 1px dotted #CCCCCC;*/
+    text-align: right;
+    padding: 18px 0;
+    background: url(../images/border-dotted.png) no-repeat;
+}
+.content-block7 p{
+    display: inline-block;
+}
+.content-block7 p.orange,.content-block8 p.orange{
+    color: #f15e00;
+    font-weight: bold;
+}
+.content-block8{
+    padding: 18px 0;
+    background: url(../images/border-dotted.png) no-repeat;
+    margin-bottom: 20px;
+}
+.content-block8 div{
+    display: inline-block;
+}
+.content-block8 .block1{
+    background-color: #EDF1F2;
+    padding: 6px 12px;
+}
+.content-block8 .block1 span{
+    color: #333333;
+    font-weight: bold;
+}
+.content-block8 .block2{
+    float: right;
+}
+.content-block8 p{
+    display: inline-block;
+}
+.content-block8 p.orange{
+    font-size: 16px;
+}
+
+/*footer*/
+footer{
+    margin-bottom: 100px;
+}
+.content-block9{
+    /*border-top: 1px solid #CCCCCC;*/
+}
+.content-block10{
+    /*border-bottom: 1px solid #CCCCCC;*/
+    background-image: url(../images/border.png);
+    background-repeat: no-repeat;
+}
+.last-block{
+    /*border-bottom: 1px solid #CCCCCC;*/
+    background-image: url(../images/border.png);
+    background-repeat: no-repeat;
+    background-position: 0 49px;
+}
+.content-block9 p.green-text,.content-block10 p.green-text{
+    color: #48ad00;
+}
+.content-block9-hide,.content-block10-hide{
+    text-align: center;
+}
+.content-block9-hide p,.content-block10-hide p{
+    color: #48ad00;
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: 17px;
+}

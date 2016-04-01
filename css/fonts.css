@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Dosis-ExtraLight';
+    src: url('../font/Dosis-ExtraLight.ttf')format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../font/OpenSans-Regular.eot");
+    src: url("../font/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../font/OpenSans-Regular.woff") format("woff"),
+    url("../font/OpenSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Ultima Light";
+    src: url("../font/Ultima W01 Light.eot");
+    src: url("../font/Ultima W01 Light.eot?#iefix") format("embedded-opentype"),
+    url("../font/Ultima W01 Light.woff") format("woff"),
+    url("../font/Ultima W01 Light.woff2") format("woff"),
+    url("../font/Ultima W01 Light.ttf") format("truetype"),
+    url("../font/Ultima W01 Light.otf") format("truetype"),
+    url("../font/Ultima W01 Light.svg") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Interstate Thin";
+    src: url("../font/Interstate Thin.eot");
+    src: url("../font/Interstate Thin.eot?#iefix") format("embedded-opentype"),
+    url("../font/Interstate Thin.woff") format("woff"),
+    url("../font/Interstate Thin.woff2") format("woff"),
+    url("../font/Interstate Thin.ttf") format("truetype"),
+    url("../font/Interstate Thin.otf") format("truetype"),
+    url("../font/Interstate Thin.svg") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Museo Sans W01 300";
+    src: url("../font/Museo Sans W01 300.eot");
+    src: url("../font/Museo Sans W01 300.eot?#iefix") format("embedded-opentype"),
+    url("../font/Museo Sans W01 300.woff") format("woff"),
+    url("../font/Museo Sans W01 300.woff2") format("woff"),
+    url("../font/Museo Sans W01 300.ttf") format("truetype"),
+    url("../font/Museo Sans W01 300.otf") format("truetype"),
+    url("../font/Museo Sans W01 300.svg") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

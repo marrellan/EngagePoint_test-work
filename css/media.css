@@ -1,0 +1,102 @@
+@media (max-width: 800px){
+    .content-block3-hide div span, .content-block3-hide div p{
+        font-size: 13px;
+    }
+    .content-block3-hide-block1{
+        width: 146px;
+        margin-right: 35px;
+    }
+}
+@media (max-width: 720px){
+    .header-title p, a{
+        font-size: 18px;
+    }
+    .content-block3-hide div span, .content-block3-hide div p{
+        font-size: 12px;
+    }
+    .content-block3-hide-block1{
+        width: 125px;
+    }
+    .content-block1 p.title,.content-block7 p{
+        font-size: 13px;
+    }
+    .content-block2 p.title, .content-block3 p.title, .content-block9 p.title, .content-block10 p.title{
+        font-size: 13px;
+    }
+    .content-block1 p, .content-block2 p, .content-block3 p, .content-block9 p, .content-block10 p{
+        font-size: 13px;
+    }
+    .content-block1 p.title{
+        width: 20%;
+    }
+    .content-block2 p.title, .content-block3 p.title, .content-block9 p.title, .content-block10 p.title{
+        width: 20%;
+    }
+    .zakaz-block .zakaz-block1 p,.zakaz-block .zakaz-block2 p,.zakaz-block .zakaz-block3 p{
+        font-size: 13px;
+    }
+    .content-block8 p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 650px){
+    .content-block3-hide-block1{
+        display: none;
+    }
+}
+@media (max-width: 625px){
+    .header-title p, a{
+        font-size: 16px;
+    }
+    .content-block1 p.title{
+        width: 117px;
+        margin-right: 0;
+    }
+    .content-block2 p.title, .content-block3 p.title, .content-block9 p.title, .content-block10 p.title{
+        width: 117px;
+        margin-right: 0;
+    }
+}
+@media (max-width: 560px){
+    header a{
+        margin-right: 10px;
+    }
+    .content-block1 p, .content-block2 p, .content-block3 p, .content-block9 p, .content-block10 p{
+        display: block;
+    }
+    .content-block1 p.title{
+        width: 117px;
+        margin: 0 auto;
+    }
+    .content-block2 p.title, .content-block3 p.title, .content-block9 p.title, .content-block10 p.title{
+        width: 117px;
+        margin: 5px auto;
+    }
+    p.title-last{
+        width: 240px;
+        margin: 5px auto;
+    }
+    .spoiler .onclick{
+        height: auto;
+    }
+    .spoiler span.hide-icon, .spoiler span.show-icon{
+        top:-25px;
+    }
+    .zakaz-block .zakaz-block2{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .header-title p, a {
+        font-size: 14px;
+    }
+    .header-title p{
+        margin-right: 10px;
+    }
+    .content-block8 p,.content-block8 p.orange {
+        font-size: 13px;
+    }
+    .content-block6 .zakaz-block1 .name{
+        width: auto;
+    }
+}
